@@ -16,6 +16,7 @@ function validate() {
   }
   // Show success in div#result
   else {
+    cardnumber.value=validator.maskify(cardnumber.value);
     message="Tu número de tarjeta de credito no es válido"; 
   }
   // Show error message in div#result
