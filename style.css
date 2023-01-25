@@ -1,0 +1,9 @@
+* {font-family:'Lucida Sans';  text-align: center;}
+
+header{color: white; background-color: #b415db; font-size: 50px;
+    border-style: solid;   text-align: center;border: 7px solid rgb(5, 5, 17)
+}
+#cardnumber{color: black; background-color: #cc73b9; font-size: 20px;
+    border-style: solid;   text-align: center;padding: 10px;margin: 4%;
+
+}
