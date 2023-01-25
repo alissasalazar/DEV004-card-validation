@@ -6,9 +6,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
+    <header>Validación de tarjeta de crédito</header>
     <main></main>
+      <form action="#">
+        <input type="text" required=" " pattern="[0-9]+" id="cardnumber" placeholder="Ingresa tu num. tarjeta aquí">
+        <button id="validar" type="submit">Validar</button>
+      <div>
+        <label for="result">¿Es valida la tarjeta?</label>
+        <textarea disabled="true" id="result"></textarea>
+      </div>  
+    </form>
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
+
