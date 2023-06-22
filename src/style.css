@@ -1,9 +1,33 @@
-* {font-family:'Lucida Sans';  text-align: center;}
-
-header{color: white; background-color: #b415db; font-size: 50px;
-    border-style: solid;   text-align: center;border: 7px solid rgb(5, 5, 17)
+* {
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
 }
-#cardnumber{color: black; background-color: #cc73b9; font-size: 20px;
-    border-style: solid;   text-align: center;padding: 10px;margin: 4%;
 
+body{
+background-image: url("https://m.media-amazon.com/images/I/71fyIrM3-eL.jpg");
+
+}
+
+.contentForm{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.form{
+  background-color: #C7EBFF;
+  width: 30%;
+  border-radius: 170px 20px 170px 20px;
+  border: 20px solid rgb(128, 20, 20);
+  padding: 30px;
+}
+
+span{
+  font-size: 60px;
+  color: #D5C7FF;
+}
+textarea{
+  background-color: whitesmoke;
+  margin-top: 8%;
+  width: 30%;
 }

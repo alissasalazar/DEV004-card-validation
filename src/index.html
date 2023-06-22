@@ -1,23 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>Validación de tarjeta de crédito</header>
-    <main></main>
-      <form action="#">
-        <input type="text" required=" " pattern="[0-9]+" id="cardnumber" placeholder="Ingresa tu num. tarjeta aquí">
+    <main class="contentForm">
+      <form action="#" class="form">
+        <h1>Compra tus entradas para <span>Lana del Rey</span> </h1>
+        <p>Ingresa tu nombre</p>
+        <input type="text" required=" " placeholder="Ingresa tu nombre aquí" />
+        <p>Escoge la fecha en la que iras al concierto</p>
+        <input type="date" required=" " />
+        <p>A pagar esa entrada se ha dicho</p>
+        <input
+          type="text"
+          required=" "
+          pattern="[0-9]+"
+          id="cardnumber"
+          placeholder="Ingresa tu num. tarjeta aquí"
+        />
         <button id="validar" type="submit">Validar</button>
-      <div>
-        <label for="result">¿Es valida la tarjeta?</label>
-        <textarea disabled="true" id="result"></textarea>
-      </div>  
-    </form>
+        <div>
+          <label for="result">¿Es valida la tarjeta?</label>
+          <textarea disabled="true" id="result"></textarea>
+        </div>
+      </form>
+    </main>
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
-
